@@ -58,17 +58,27 @@ body {
 /* set the size of the background image under the header menu */
 
 .hdr1 {
-
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/image1.JPG");
   background-size: cover;
   background-position: center;
 }
+
+/*set avatar photo properties */
+.hdr1 img{
+  border-radius: 8px;
+  width: 10%;
+  margin-top: -15%;
+  margin-left: 1%;
+  padding-bottom: 2%;
+}
 /* align the header to the right */
 .hdr1 h1 {
   text-align: right;
-  margin-right: 15px;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  margin-right: 7%;
+  padding-top: 12%;
+  padding-bottom: 7%;
   color: var(--outer-space);
 }
 
@@ -137,7 +147,7 @@ it's own background image */
 
 .n2body-right-2 {
   
-  background-image: url(../images/social-media-marketing.jpg);
+  background-image: url(../images/png1a.png);
   background-size: cover;
   background-position: center;
   display:flex;
@@ -156,19 +166,30 @@ it's own background image */
 }
 
 .n2body-right-3 {
-  background-image: url(../images/social-media-marketing.jpg);
+  background-image: url(../images/png2a.png);
 }
 
 .n2body-right-4 {
-  background-image: url(../images/social-media-marketing.jpg);
+  background-image: url(../images/png3a.png);
 }
 
 .n2body-right-5 {
-  background-image: url(../images/social-media-marketing.jpg);
+  background-image: url(../images/png4a.png);
 }
 
 .n2body-right-6 {
-  background-image: url(../images/social-media-marketing.jpg);
+  background-image: url(../images/png5a.png);
+}
+
+/* glowing the picture boxes on hovering */
+.box2, .box3, .box4, .box5, .box6 {
+  display:flex;
+  flex-direction:column;
+}
+
+.box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+  box-shadow: inset 0px 0px 8px #0f6283, 0 0 15px #234e60;
+  backdrop-filter: sepia(50%);
 }
 
 /* formatting for the links to the projects */
@@ -205,4 +226,12 @@ it's own background image */
   margin-top: -3%;
   color: var(--outer-space);
   margin-left: 5%;
+}
+
+/* hide the left side design for the smaller devices (mobiles) */
+
+@media screen and (max-width: 300px) {
+  .n2body-left {
+    display: none;
+  }
 }
