@@ -6,6 +6,7 @@
   --bright-turquoise: #42c1eb;
   --gin: #0f6283;
   --heliotrope: #e866ec;
+  --text-white: white;
 }
 
 /* Set background color of the page */
@@ -107,7 +108,7 @@ body {
 }
 
 .n2body-left-1{
-  flex-basis: 24%;
+  flex-basis: 35%;
 }
 
 .n2body-left-2{
@@ -148,8 +149,9 @@ it's own background image */
 .n2body-right-2 {
   
   background-image: url(../images/png1a.png);
+  background-image: url(../images/sportlinkconnect.png);
   background-size: cover;
-  background-position: center;
+  background-position: top;
   display:flex;
   flex-direction:column;
   flex-basis:98%;
@@ -198,7 +200,7 @@ it's own background image */
   font-weight: bold;
   text-decoration: none;
   margin-top: 13%;
-  color: var(--outer-space);
+  color: var(--text-white);
   margin-left: 5%;
 
 }
@@ -216,7 +218,7 @@ it's own background image */
   font-size: 60%;
   margin-bottom: 3%;
   margin-top: -2%;
-  color: var(--outer-space);
+  color: var(--text-white);
   margin-left: 5%;
 }
 
