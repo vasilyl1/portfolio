@@ -151,6 +151,7 @@ it's own background image */
   
   background-image: url(../images/png1a.png);
   background-image: url(../images/sportlinkconnect.png);
+  background-image: url(../images/imgProj2.png);
   background-size: cover;
   background-position: 2% 29%;
   display:flex;
@@ -169,7 +170,8 @@ it's own background image */
 }
 
 .n2body-right-3 {
-  background-image: url(../images/png2a.png);
+  background-image: url(../images/imgProj2.png);
+  background-image: url(../images/sportlinkconnect.png);
 }
 
 .n2body-right-4 {
@@ -197,11 +199,12 @@ it's own background image */
 
 /* formatting for the links to the projects */
 .n2body-right-2 a {
-  font-size: 110%;
+  font-size: 150%;
   font-weight: bold;
   text-decoration: none;
   margin-top: 13%;
-  color: var(--text-white);
+  /*color: var(--text-white);*/
+  color: var(--outer-space);
   margin-left: 5%;
 
 }
@@ -219,7 +222,8 @@ it's own background image */
   font-size: 60%;
   margin-bottom: 3%;
   margin-top: -2%;
-  color: var(--text-white);
+  /*color: var(--text-white);*/
+  color: var(--outer-space);
   margin-left: 5%;
 }
 
