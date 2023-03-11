@@ -218,6 +218,10 @@ it's own background image */
   margin-left: 5%;
 }
 
+.box3 a {
+  color: var(--gin);
+}
+
 .n2body-right-2 h2 {
   font-size: 60%;
   margin-bottom: 3%;
@@ -225,7 +229,10 @@ it's own background image */
   /*color: var(--text-white);*/
   color: var(--outer-space);
   margin-left: 5%;
+  overflow-wrap: break-word;
 }
+
+
 
 .n2body-right-6 h2, .n2body-right-5 h2, .n2body-right-4 h2, .n2body-right-3 h2 {
   font-size: 60%;
@@ -233,6 +240,10 @@ it's own background image */
   margin-top: -3%;
   color: var(--outer-space);
   margin-left: 5%;
+}
+
+.box3 h2 {
+  color: var(--outer-space);
 }
 
 /* hide the left side design for the smaller devices (mobiles) */
