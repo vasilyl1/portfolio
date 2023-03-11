@@ -149,8 +149,8 @@ it's own background image */
 
 .n2body-right-2 {
   
-  background-image: url(../images/png1a.png);
-  background-image: url(../images/sportlinkconnect.png);
+ /* background-image: url(../images/png1a.png);
+  background-image: url(../images/sportlinkconnect.png);*/
   background-image: url(../images/imgProj2.png);
   background-size: cover;
   background-position: 2% 29%;
@@ -170,7 +170,7 @@ it's own background image */
 }
 
 .n2body-right-3 {
-  background-image: url(../images/imgProj2.png);
+  /*background-image: url(../images/imgProj2.png);*/
   background-image: url(../images/sportlinkconnect.png);
 }
 
@@ -218,7 +218,7 @@ it's own background image */
   margin-left: 5%;
 }
 
-.box3 a {
+.n2body-right-3 a {
   color: var(--gin);
 }
 
@@ -240,9 +240,10 @@ it's own background image */
   margin-top: -3%;
   color: var(--outer-space);
   margin-left: 5%;
+  overflow-wrap: break-word;
 }
 
-.box3 h2 {
+.n2body-right-3 h2 {
   color: var(--outer-space);
 }
 
